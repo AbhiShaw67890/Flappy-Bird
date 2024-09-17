@@ -6,8 +6,8 @@ const startButton = document.getElementById('start-button');
 
 let birdY;
 let birdSpeed;
-const gravity = 0.5; // Further reduced gravity
-const jumpStrength = -6; // Adjusted jump strength
+const gravity = 0.3; // Further reduced gravity
+const jumpStrength = -5; // Adjusted jump strength
 let isGameOver = false;
 let score = 0;
 let isPressing = false;
